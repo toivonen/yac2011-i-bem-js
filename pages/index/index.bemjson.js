@@ -10,16 +10,22 @@
     content: [
         {
             block: 'b-cut',
-            opener: 'открыть кат',
             content: [
                 {
-                    block: 'b-text',
-                    content: [
-                        {
-                            elem: 'p',
-                            content: 'Мама мыла раму'
-                        }
-                    ]
+                    elem: 'opener',
+                    content: 'открыть кат'
+                },
+                {
+                    elem: 'content',
+                    content: {
+                        block: 'b-text',
+                        content: [
+                            {
+                                elem: 'p',
+                                content: 'Мама мыла раму'
+                            }
+                        ]
+                    }
                 }
             ]
         }
