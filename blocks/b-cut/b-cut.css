@@ -9,3 +9,18 @@
     
     background: #f8f8f8;
 }
+
+.b-cut__content_visibility_visible
+{
+    display: block;
+}
+
+.b-cut__opener
+{
+    display: none;
+}
+
+.b-cut__opener_visibility_visible
+{
+    display: inline;
+}
