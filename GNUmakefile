@@ -5,6 +5,7 @@ BEM_BUILD=bem build \
 	-l bem-bl/blocks-common/ \
 	-l bem-bl/blocks-desktop/ \
 	-l blocks/ \
+	-l my-blocks/ \
 	-d $< \
 	-t $1 \
 	-o $(@D) \
