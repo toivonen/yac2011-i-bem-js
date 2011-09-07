@@ -22,7 +22,6 @@
                         ' ',
                         {
                             block: 'b-cut',
-                            mods: { type: 'inline' },
                             js: {id: '1'},
                             elem: 'opener',
                             content: 'подробности'
