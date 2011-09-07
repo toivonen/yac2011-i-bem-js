@@ -1,0 +1,10 @@
+.b-cut__opener
+{
+    display: inline;
+}
+
+.b-cut__opener_visibility_invisible
+{
+    display: none;
+}
+
